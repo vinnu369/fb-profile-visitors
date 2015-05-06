@@ -18,6 +18,10 @@
     // now 3 profiles it will show
        acc_num=acc_num+response.charAt(res+i) 
     }
+    // NOTE:: if code showing an error like below
+    //“No 'Access-Control-Allow-Origin' header is present on the requested resource”
+    //please run the below command and execute it have a great day :)
+    //chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
     //alert(acc_num)
     parseString(acc_num)
 });
